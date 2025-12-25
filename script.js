@@ -1,7 +1,7 @@
-/*API*/
+
 const API_KEY = 'e3c9415b1f208b4d87976fd33483d5c3';
 
-// DOM elements
+
 const searchBtn = document.getElementById('searchBtn');
 const cityInput = document.getElementById('cityInput');
 const tempElement = document.getElementById('temp');
@@ -9,7 +9,7 @@ const humidityElement = document.getElementById('humidity');
 const windElement = document.getElementById('wind');
 const forecastContainer = document.getElementById('forecastContainer');
 
-// Fetching
+
 async function fetchWeather(city) {
     const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`;
     const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${API_KEY}`;
@@ -63,7 +63,7 @@ function updateForecast(forecastData) {
     });
 }
 
-//event listener
+
 searchBtn.addEventListener('click', () => {
     const city = cityInput.value.trim();
     if (city) {

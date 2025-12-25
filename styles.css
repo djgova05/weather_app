@@ -10,7 +10,6 @@ body {
     min-height: 100vh;
 }
 
-/* Container */
 .container {
     background-color: rgba(177, 218, 254, 0.85);
     padding: 30px 25px;
@@ -21,7 +20,6 @@ body {
     text-align: center;
 }
 
-/* Headings */
 h1 {
     margin-bottom: 25px;
     font-size: 24px;
@@ -34,7 +32,6 @@ h2 {
     color: #444;
 }
 
-/* Inputs */
 input {
     padding: 10px;
     width: 100%;
@@ -44,7 +41,7 @@ input {
     box-sizing: border-box;
 }
 
-/* Button */
+
 button {
     padding: 10px;
     width: 100%;
@@ -60,7 +57,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Current Weather Information */
+
 .weather-info {
     text-align: left;
     margin-top: 15px;
@@ -69,7 +66,7 @@ button:hover {
     border-radius: 10px;
 }
 
-/* Forecast Section */
+
 .forecast {
     margin-top: 20px;
     text-align: left;
